@@ -6,37 +6,25 @@
 
 body {
     background-color: #EFF1F3;
+    min-width: 1170px;
+    max-width: 1900px;
 }
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
     align-items: center;
-    justify-content: center;
     margin: 10px 135px 50px 135px;
 }
 
-.main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    position: static;
-    width: 599px;
-    left: 0px;
-    top: 6.5px;
-}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
-.main a {
-    position: static;
-    width: 32px;
-    height: 32px;
-    left: 0px;
-    top: 38px;
-    margin: 0 453px 0 0;
-}
-
-.main img.fish {
+.main_logo {
     position: static;
     width: 114px;
     height: 108px;
@@ -44,31 +32,10 @@ header {
     top: 0px;
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    position: static;
-    width: 216px;
-    height: 32px;
-    left: 954px;
-    top: 44.5px;
-    margin: 0 0 0 355px;
-}
-
-.menu img {
-    width: 32px;
-    height: 32px;
-    left: 0px;
-    top: 0px;
-}
-
-.menu a.vop, a.shest {
+span {
     margin: 0 60px 0 0;
 }
-    
+
 section.full_game {
     display: flex;
     flex-direction: row;
